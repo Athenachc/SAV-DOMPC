@@ -80,6 +80,6 @@
 
     ],
   
-    "bibtex": "@article{cheung2024aerial, title={Aerial grasping with soft aerial vehicle using disturbance observer-based model predictive control}, \n author={Cheung, Hiu Ching and Jiang, Bailun and Hu, Yang and Chu, Henry K and Wen, Chih-Yung and Chang, Ching-Wei}, \n journal={arXiv preprint arXiv:2409.14115}, \n year={2024}}"
+    "bibtex": "@article{cheung2024aerial, \n title={Aerial grasping with soft aerial vehicle using disturbance observer-based model predictive control}, \n author={Cheung, Hiu Ching and Jiang, Bailun and Hu, Yang and Chu, Henry K and Wen, Chih-Yung and Chang, Ching-Wei}, \n journal={arXiv preprint arXiv:2409.14115}, \n year={2024}}"
   }
   
