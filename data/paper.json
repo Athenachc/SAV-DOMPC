@@ -25,16 +25,16 @@
   
     "teaser": {
       "src": "assets/img/figures/pokemon.png",
-      "alt": "sav",
+      "alt": "pokemon",
       "caption": "Trajectory of grasping a spherical container with 118 g load"
     },
   
     "abstract": "Aerial grasping, particularly soft aerial grasping, holds significant promise for drone delivery and harvesting tasks. However, controlling UAV dynamics during aerial grasping presents considerable challenges. The increased mass during payload grasping adversely affects thrust prediction, while unpredictable environmental disturbances further complicate control efforts. In this study, our objective aims to enhance the control of the Soft Aerial Vehicle (SAV) during aerial grasping by incorporating a disturbance observer into a Nonlinear Model Predictive Control (NMPC) SAV controller. By integrating the disturbance observer into the NMPC SAV controller, we aim to compensate for dynamic model idealization and uncertainties arising from additional payloads and unpredictable disturbances. Our approach combines a disturbance observer-based NMPC with the SAV controller, effectively minimizing tracking errors and enabling precise aerial grasping along all three axes. The proposed SAV equipped with Disturbance Observer-based Nonlinear Model Predictive Control (DOMPC) demonstrates remarkable capabilities in handling both static and non-static payloads, leading to the successful grasping of various objects. Notably, our SAV achieves an impressive payload-to-weight ratio, surpassing previous investigations in the domain of soft grasping. Using the proposed soft aerial vehicle weighing 1.002 kg, we achieve a maximum payload of 337 g by grasping.",
   
     "featuredFigure": {
-      "src": "assets/img/figures/f330_sav.png",
-      "alt": "sav",
-      "caption": "Illustration of the proposed modular pneumatic soft gripper with a conventional drone."
+      "src": "assets/img/figures/pokemon.png",
+      "alt": "pokemon",
+      "caption": "Trajectory of grasping a spherical container with 118 g load"
     },
   
     "galleryFigures": [
