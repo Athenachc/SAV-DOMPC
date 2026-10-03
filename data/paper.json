@@ -73,7 +73,7 @@
     "authors": [
       { "name": "Hiu Ching Cheung",       "affil": "The Hong Kong Polytechnic University", "photo": "assets/authors/athena.jpg",     "links": ["https://athenachc.github.io/"]},
     { "name": "Bailun Jiang",             "affil": "The Hong Kong Polytechnic University", "photo": "assets/authors/bailun.png", "links": ["https://scholar.google.com/citations?user=ujaT6SsAAAAJ&hl=en"] },
-      { "name": "Yang Hu",                "affil": "The Hong Kong Polytechnic University", "photo": "assets/authors/bailun.png", "links": ["https://scholar.google.com/citations?user=VbxRVSwAAAAJ&hl=en"] },      
+      { "name": "Yang Hu",                "affil": "The Hong Kong Polytechnic University", "photo": "assets/authors/yang.jpeg", "links": ["https://scholar.google.com/citations?user=VbxRVSwAAAAJ&hl=en"] },      
       { "name": "Henry K. Chu",           "affil": "The Hong Kong Polytechnic University", "photo": "assets/authors/henry.png",  "links": ["https://henrychulab.github.io/"] },
       { "name": "Chih-Yung Wen",          "affil": "The Hong Kong Polytechnic University", "photo": "assets/authors/prof_wen.png", "links": ["https://gh034.github.io/"] },
       { "name": "Ching-Wei Chang",        "affil": "Hong Kong Center for Construction Robotics", "photo": "assets/authors/ching-wei.png",     "links": ["https://scholar.google.com/citations?user=1WEOw-EAAAAJ&hl=en"]}
