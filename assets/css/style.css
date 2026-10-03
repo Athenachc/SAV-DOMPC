@@ -280,7 +280,10 @@
     background:var(--card);
     padding:14px;
     box-shadow:var(--shadow);
+    max-width: 980px; /* Matches your featured figure width */
+    /* margin: 0 auto;   Centers the block */
   }
+
   .bibtex-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}
   pre{margin:0;overflow:auto}
   pre code{display:block;padding:12px;border-radius:14px;background:#0c1220;color:#e9eefc}
