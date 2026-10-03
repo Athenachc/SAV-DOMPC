@@ -38,11 +38,16 @@
     },
   
     "galleryFigures": [
-      { "src": "assets/img/figures/f330_sav.png", "alt": "sav", "caption": "System overview of the proposed framework for hierarchical tracheal anatomy understanding." },
-      { "src": "assets/img/figures/me_design.png", "alt": "me_design", "caption": "Dimensions of the X-base (spherical) soft gripper when it is (a) initially opened, (b) fully opened, and (c) fully closed. And the dimensions of the H-base (cylindrical) soft gripper when it is (d) initially opened, (e) fully opened, and (f) fully closed." },
-      { "src": "assets/img/figures/aerial_grasping.png", "alt": "aerial_grasping", "caption": " Aerial grasping process with the H-base soft gripper: (a) Approaching the target, (b) Starting grasping, (c) Picking up the object." },
-      { "src": "assets/img/figures/grasp_test2.png", "alt": "grasping", "caption": "Examples of grasping tests: Grasping (a) a pen holder with 270 g loads and (b) a spherical container with 160 g loads by an X-base gripper; Grasping (c) a computer mouse and (d) a can of spray paint with an H-base gripper." },
-      { "src": "assets/img/figures/landing.png", "alt": "landing", "caption": "Simple landing test with (a) the H-base soft gripper and (b) the X-base soft gripper, and tilt landing test with the (c) X-base and (d) H-base soft gripper." }
+      { "src": "assets/img/figures/sav_takeoff_land_grasp_tolerance_v3.png", "alt": "sav", "caption": "S(a) Our SAV hovers in mid-air. (b) The SAV grasps its target object under its center of gravity by inflating its modular pneumatic soft gripper. (c) Takeoff and landing pose of the SAV with its deflated soft gripper. (d) Demonstrating the high grasping tolerance of the pneumatic soft gripper." },
+      { "src": "assets/img/figures/sav_design.PNG", "alt": "sav", "caption": "(a) Exploded CAD view of the SAV. (b) Side view of a modular pneumatic soft finger." },
+      { "src": "assets/img/figures/sav_gripper_dynamic_v3.png", "alt": "dynamic", "caption": " (a) Assembly of H-base (cylindrical) soft gripper. (b) Assembly of X-base (spherical) soft gripper. (c) SAV sketch with its inertial frame and body frame." },
+      { "src": "assets/img/figures/sav_control_v4.png", "alt": "control_block_diagram", "caption": "Cascaded loop control structure of disturbance observer-based NMPC (DOMPC)." },
+      { "src": "assets/img/figures/sav_fsm_v3.png", "alt": "fsm", "caption": "Finite state machine diagram for the SAV aerial grasping task." },
+      { "src": "assets/img/figures/payload_test_hbase_record_v2.png", "alt": "payload_test", "caption": "Payload test of the SAV: (a) - (c) position tracking performance along the x, y, and z axes, (d) SAV hovering after carrying 634 g payload in total." },
+      { "src": "assets/img/figures/257gbatt_cir_v6.png", "alt": "cir_flights", "caption": "Results of the SAV circular flights with an additional $257g$ load using DOMPC, NMPC, and PID: (a) - (c): position tracking performance along the $x$, $y$, and $z$ axes; (d): trajectories results of the SAV circular flights." },
+      { "src": "assets/img/figures/trajectory_path_v3.png", "alt": "trajectories", "caption": "Trajectories of grasping the three targets: (a) grasping a shuttlecock tube with 46 g load; (b) grasping a spherical container with 118 g load; (c) grasping a plastic bottle with 80 g." },
+      { "src": "assets/img/figures/grasp_tracking_error_v6.png", "alt": "position_tracking_results", "caption": "Position tracking errors during the process of grasping the three different target objects (the dotted lines depict the time of holding and moving the objects after grasping)." },
+      { "src": "assets/img/figures/grasp_disturbances_v6.png", "alt": "disturbance_results", "caption": "Disturbance results from grasping the three different target objects (the dotted lines indicate the time of holding and moving the objects after grasping)." }
     ],
   
     "video": {
