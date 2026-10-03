@@ -8,13 +8,11 @@
     "footerLeft": "© 2024 AIRO Lab • The Hong Kong Polytechnic University",
   
     "buttons": [
-      { "label": "Paper (arXiv)", "href": "https://arxiv.org/html/2311.00390v3", "style": "primary" },
-      { "label": "Paper (IEEE)", "href": "https://ieeexplore.ieee.org/document/10521918", "style": "primary" },
-      { "label": "PDF", "href": "data/2311.00390v3.pdf", "style": "secondary" },
-      { "label": "Video", "href": "https://youtu.be/rHRo_83o-0E?si=jN5mLMxMs6wgMWln", "style": "secondary" },
-      { "label": "Code (SAV)", "href": "https://github.com/Athenachc/sav_control", "style": "secondary" },
-      { "label": "Code (Soft Gripper)", "href": "https://github.com/Athenachc/sav_gripper", "style": "secondary" }
-    ],
+      { "label": "Paper (arXiv)", "href": "https://arxiv.org/abs/2409.14115", "style": "primary" },
+      { "label": "PDF", "href": "data/2409.14115v1.pdf", "style": "secondary" },
+      { "label": "Video", "href": "https://youtu.be/vA5KXU8RiZw?si=DdLtmbdhRjwl99lW", "style": "secondary" },
+      { "label": "Code (SAV)", "href": "https://github.com/HKPolyU-UAV/airo_control_interface/tree/observer_class", "style": "secondary" }    
+      ],
   
     "tags": [
       "Disturbance Observer-Based MPC",
