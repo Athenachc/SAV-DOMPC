@@ -51,5 +51,4 @@ Then open http://localhost:8000 in your browser.
 - `assets/js/main.js` - JavaScript functionality
 
 That's it! Most changes are in `paper.json`.
-# SAV
-# SAV-DOMPC
+

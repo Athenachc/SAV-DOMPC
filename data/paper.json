@@ -1,10 +1,10 @@
 {
-    "shortTitle": "SAV",
-    "venueLine": "RoboSoft • 2024",
-    "title": "A Modular Pneumatic Soft Gripper Design for Aerial Grasping and Landing",
+    "shortTitle": "SAV-DOMPC",
+    "venueLine": "arXiv • 2024",
+    "title": "Aerial Grasping with Soft Aerial Vehicle Using Disturbance Observer-Based Model Predictive Control",
     "subtitle": "A Lightweight YOLO and SAM2 Framework for Robotic-Assisted Tracheostomy",
     "doi": "",
-    "lastUpdated": "2026-07-30",
+    "lastUpdated": "2024-09-21",
     "footerLeft": "© 2024 AIRO Lab • The Hong Kong Polytechnic University",
   
     "buttons": [
@@ -17,9 +17,10 @@
     ],
   
     "tags": [
+      "Disturbance Observer-Based MPC",
+      "Aerial grasping",
       "Soft robotics",
-      "UAVs",
-      "Aerial grasping"
+      "UAVs"
     ],
   
     "affiliationsLine": "The Hong Kong Polytechnic University • AIRO Lab",
@@ -30,7 +31,7 @@
       "caption": "Illustration of the proposed modular pneumatic soft gripper with a conventional drone."
     },
   
-    "abstract": "Aerial robots have garnered significant attention due to their potential applications in various industries, such as inspection, search and rescue, and drone delivery. Successful missions often depend on the ability of these robots to grasp and land effectively. This paper presents a novel modular soft gripper design tailored explicitly for aerial grasping and landing operations. The proposed modular pneumatic soft gripper incorporates a feed-forward proportional controller to regulate pressure, enabling compliant gripping capabilities. The modular connectors of the soft fingers offer two configurations for the 4-tip soft gripper, H-base (cylindrical) and X-base (spherical), allowing adaptability to different target objects. Additionally, the gripper can serve as a soft landing gear when deflated, eliminating the need for an extra landing gear. This design reduces weight, simplifies aerial manipulation control, and enhances flight efficiency. We demonstrate the efficacy of indoor aerial grasping and achieve a maximum payload of 217 g using the proposed soft aerial vehicle and its H-base pneumatic soft gripper (808 g).",
+    "abstract": "Aerial grasping, particularly soft aerial grasping, holds significant promise for drone delivery and harvesting tasks. However, controlling UAV dynamics during aerial grasping presents considerable challenges. The increased mass during payload grasping adversely affects thrust prediction, while unpredictable environmental disturbances further complicate control efforts. In this study, our objective aims to enhance the control of the Soft Aerial Vehicle (SAV) during aerial grasping by incorporating a disturbance observer into a Nonlinear Model Predictive Control (NMPC) SAV controller. By integrating the disturbance observer into the NMPC SAV controller, we aim to compensate for dynamic model idealization and uncertainties arising from additional payloads and unpredictable disturbances. Our approach combines a disturbance observer-based NMPC with the SAV controller, effectively minimizing tracking errors and enabling precise aerial grasping along all three axes. The proposed SAV equipped with Disturbance Observer-based Nonlinear Model Predictive Control (DOMPC) demonstrates remarkable capabilities in handling both static and non-static payloads, leading to the successful grasping of various objects. Notably, our SAV achieves an impressive payload-to-weight ratio, surpassing previous investigations in the domain of soft grasping. Using the proposed soft aerial vehicle weighing 1.002 kg, we achieve a maximum payload of 337 g by grasping.",
   
     "featuredFigure": {
       "src": "assets/img/figures/f330_sav.png",
@@ -71,12 +72,14 @@
   
     "authors": [
       { "name": "Hiu Ching Cheung",       "affil": "The Hong Kong Polytechnic University", "photo": "assets/authors/athena.jpg",     "links": ["https://athenachc.github.io/"]},
-      { "name": "Ching-Wei Chang",        "affil": "Hong Kong Center for Construction Robotics", "photo": "assets/authors/ching-wei.png",     "links": ["https://scholar.google.com/citations?user=1WEOw-EAAAAJ&hl=en"]},
-      { "name": "Bailun Jiang",    "affil": "The Hong Kong Polytechnic University", "photo": "assets/authors/bailun.png", "links": ["https://scholar.google.com/citations?user=ujaT6SsAAAAJ&hl=en"] },
+    { "name": "Bailun Jiang",             "affil": "The Hong Kong Polytechnic University", "photo": "assets/authors/bailun.png", "links": ["https://scholar.google.com/citations?user=ujaT6SsAAAAJ&hl=en"] },
+      { "name": "Yang Hu",                "affil": "The Hong Kong Polytechnic University", "photo": "assets/authors/bailun.png", "links": ["https://scholar.google.com/citations?user=VbxRVSwAAAAJ&hl=en"] },      
+      { "name": "Henry K. Chu",           "affil": "The Hong Kong Polytechnic University", "photo": "assets/authors/henry.png",  "links": ["https://henrychulab.github.io/"] },
       { "name": "Chih-Yung Wen",          "affil": "The Hong Kong Polytechnic University", "photo": "assets/authors/prof_wen.png", "links": ["https://gh034.github.io/"] },
-      { "name": "Henry K. Chu",     "affil": "The Hong Kong Polytechnic University", "photo": "assets/authors/henry.png",  "links": ["https://henrychulab.github.io/"] }
+      { "name": "Ching-Wei Chang",        "affil": "Hong Kong Center for Construction Robotics", "photo": "assets/authors/ching-wei.png",     "links": ["https://scholar.google.com/citations?user=1WEOw-EAAAAJ&hl=en"]}
+
     ],
   
-    "bibtex": "@inproceedings{cheung2024modular, \n title={A modular pneumatic soft gripper design for aerial grasping and landing}, \n author={Cheung, Hiu Ching and Chang, Ching-Wei and Jiang, Bailun and Wen, Chih-Yung and Chu, Henry K}, \n booktitle={2024 IEEE 7th International Conference on Soft Robotics (RoboSoft)}, \n pages={82--88}, \n year={2024}, \n organization={IEEE}}"
+    "bibtex": "@article{cheung2024aerial, title={Aerial grasping with soft aerial vehicle using disturbance observer-based model predictive control}, author={Cheung, Hiu Ching and Jiang, Bailun and Hu, Yang and Chu, Henry K and Wen, Chih-Yung and Chang, Ching-Wei}, journal={arXiv preprint arXiv:2409.14115}, year={2024}}"
   }
   
